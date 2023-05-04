@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background: radial-gradient(
+      circle at 3% 75%,
+      rgba(0, 0, 0, 0.74) 50%,
+      rgba(0, 4, 47, 0.844) 75%
+    );
+  
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar-brand {
+    font-family: Circular, Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .nav-link:hover {
+    color: aqua;
+  }
+  
+  .nav-items {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .navbar-toggler {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .navbar-brand:hover {
+    color: aqua;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Mobile */
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      background: radial-gradient(
+        circle at 3% 75%,
+        rgba(0, 0, 0, 0.848) 50%,
+        rgba(0, 4, 47, 0.875) 75%
+      );
+    }
+    .navbar-brand {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .nav-link {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  

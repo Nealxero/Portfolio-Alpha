@@ -1,0 +1,122 @@
+#projectsID {
+    background: linear-gradient(
+      30deg,
+      #61c3ff 0%,
+      #3094ff 25%,
+      #0c00b4 50%,
+      #762bf8 75%,
+      #7700a9 100%
+    );
+    
+   justify-content: center;
+   font-family: "Courier New", Courier, monospace;
+  }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  #projectsID h3 {
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 55px;
+  }
+  
+  .image-box {
+    position: relative;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .image-box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay a {
+    color: white;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .github-btn { 
+    background: radial-gradient(
+      circle at 3% 75%,
+      rgb(55, 55, 55) 0%,
+      rgb(158, 158, 158) 90%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    transition: transform 0.5s ease, background-color 2s ease;
+    cursor: pointer;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    
+  }
+  
+  .github-btn:hover { 
+    transform: translateY(-5px);
+    text-shadow: 0 0 10px white;
+    background: radial-gradient(
+      circle at 3% 75%,
+      rgb(25, 25, 25) 0%,
+      rgb(105, 105, 105) 90%
+    );
+  }
+  
+  .github-btn:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 9px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .github-btn:hover:after {
+    opacity: 1;
+    right: 8px;
+  }
+  .github-logo {
+    margin-left: 10px;
+    
+  }
+  
+  .gitBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,84 @@
+.skillsCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #Skills  {
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    background: radial-gradient(circle at 3% 75%, rgb(0, 0, 0) 50%,   rgb(0, 5, 61) 75%);;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #Skills h4 {
+    color: aqua;
+    font-size:30px ;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #skillsID {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 50px;
+  }
+  .imgJS {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+   
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .imgJS img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: filter 0.5s ease;
+  }
+  
+  .imgJS p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .imgJS:hover img {
+      filter: blur(5px);
+      transition: transform 0.3s ease-in;
+    }
+    
+    .imgJS:hover p {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .imgJS {
+      width: 100px;
+      height: 100px;
+    }
+    .imgJS:hover img {
+      filter: none;
+     
+      
+    }
+    
+    .imgJS:hover p {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,118 @@
+.About {
+    background: linear-gradient(
+      30deg,
+      #7700a9 0%,
+      #762bf8 25%,
+      #0c00b4 50%,
+      #3094ff 75%,
+      #61c3ff 100%
+    );
+    background-size: 200%;
+    animation: aurora 10s infinite;
+  }
+  @keyframes aurora {
+    0% {
+      background-position: left top;
+    }
+    25% {
+      background-position: right top;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    75% {
+      background-position: left bottom;
+    }
+    100% {
+      background-position: left top;
+    }
+  }
+  .container_pdf {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_pdf a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 55px;
+  }
+  .text-container2 {
+    width: 65;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .text-container2 h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+  }
+  .text-container2 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+    font-weight: bolder;
+  }
+  
+  .details-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+      circle at 3% 75%,
+      rgb(0, 167, 189) 0%,
+      rgb(0, 189, 218) 90%
+    );
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: 0.5s;
+  }
+  
+  .details-btn:hover {
+    text-shadow: 0 0 10px #818181, 0 0 20px #001aff, 0 0 30px;
+    transform: translateY(-5px);
+  }
+  
+  .linkedin-logo {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
+  #Mudkip {
+    width: 10%;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .About {
+      text-align: justify;
+      padding: 5px;
+    }
+    .About h1 {
+      font-size: 6.5vw;
+    }
+    .About h4 {
+      font-size: 4vw;
+    }
+  
+    #Mudkip {
+      margin-bottom: 1px;
+    }
+  }
+  
