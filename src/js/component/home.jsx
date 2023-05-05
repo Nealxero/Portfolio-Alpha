@@ -9,7 +9,7 @@ import { Skills } from "./skills";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div>
 			<Navbar/>
 			<Header/>
 			<About/>

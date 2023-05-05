@@ -1,9 +1,7 @@
 import React from "react";
-
-
 import "../../styles/navbar.css";
 import { useEffect, useState } from "react";
-import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
+import { BsList } from "react-icons/bs";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,14 +31,14 @@ export const Navbar = () => {
           aria-label="Toggle navigation"
           onClick={handleMenuClick}
         >
-          <i className="fa-solid fa-bars"></i>
+          <BsList />
         </button>
         <div
           className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
+            <li className="nav-item">
               <a className="nav-link" href="#Home" onClick={closeMenu}>
                 Home
               </a>

@@ -104,27 +104,7 @@
     height: auto;
   }
   
-  .glow {
-    animation: glow-animation 2s ease-in-out infinite;
-  }
   
-  @keyframes glow-animation {
-    0% {
-      text-shadow: 0 0 10px #00ffea, 0 0 20p rgb(0, 5, 61), 0 0 30px #00ffea,
-        0 0 40px rgb(0, 5, 61), 0 0 50px #00ffea, 0 0 60px rgb(0, 5, 61),
-        0 0 70px #00ffea;
-    }
-    50% {
-      text-shadow: 0 0 10px #00ffea, 0 0 20p rgb(0, 5, 61), 0 0 30px #00ffea,
-        0 0 40px rgb(0, 5, 61), 0 0 50px #00ffea, 0 0 60px rgb(0, 5, 61),
-        0 0 70px #00ffea;
-    }
-    100% {
-      text-shadow: 0 0 10px #00ffea, 0 0 20p rgb(0, 5, 61), 0 0 30px #00ffea,
-        0 0 40px rgb(0, 5, 61), 0 0 50px #00ffea, 0 0 60px rgb(0, 5, 61),
-        0 0 70px #00ffea;
-    }
-  }
   
   @media only screen and (max-width: 767px) {
     .header {

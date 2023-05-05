@@ -2,6 +2,7 @@ import React from "react";
 
 import "../../styles/projects.css";
 import { useState } from "react";
+import arcade from "../../img/arcade.png"
 import Victa from "../../img/Victa.png";
 import soon from "../../img/soon.png";
 import github from "../../img/github.png";
@@ -17,6 +18,16 @@ export const Projects = () => {
           <div className="overlay">
             <a href="https://github.com/Nealxero/Victa-0.5" target="_blank">
               Victa
+            </a>
+          </div>
+        </div>
+        <div className="image-box">
+          <img src={arcade} alt="ArcadePlanet" />
+          <div className="overlay">
+            <a href="https://simple-app-2-kappa.vercel.app" target="_blank">
+              Arcade Planet
+            
+            <p> Simple Front page example for an Arcade located in Sevilla, Spain. Using React, JS, CSS</p>
             </a>
           </div>
         </div>
