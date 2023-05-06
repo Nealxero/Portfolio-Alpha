@@ -10,7 +10,7 @@
     text-align: center;
     justify-content: center;
     align-self: center;
-    background: radial-gradient(circle at 3% 75%, rgb(0, 0, 0) 50%,   rgb(0, 5, 61) 75%);;
+   
     font-family: "Courier New", Courier, monospace;
   }
   #Skills h4 {
@@ -18,10 +18,13 @@
     font-size:30px ;
     font-family: "Courier New", Courier, monospace;
   }
+
+  
   #skillsID {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    color: aqua;
+    font-size: 2.5vw;
     font-weight: bolder;
+    font-family: 'Press Start 2P', sans-serif;
     padding-top: 50px;
   }
   .imgJS {
@@ -57,6 +60,10 @@
   }
   
   @media only screen and (min-width: 768px) {
+    #skillsID
+    {
+      font-size: 3.5vw
+    }
     .imgJS:hover img {
       filter: blur(5px);
       transition: transform 0.3s ease-in;

@@ -22,9 +22,36 @@
     
 }
 body { 
-    background: var(--color-bg)
-    
+    background: var(--color-bg);
+    background: linear-gradient(
+        30deg,
+        #000000 0%,
+        #00162e 25%,
+        #060055 50%,
+        #00013e 75%,
+        #000000 100%
+      );
+      background-size: 200%;
+      animation: aurora 10s infinite;
 }
+@keyframes aurora {
+    0% {
+      background-position: left top;
+    }
+    25% {
+      background-position: right top;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    75% {
+      background-position: left bottom;
+    }
+    100% {
+      background-position: left top;
+    }
+  }
+
 
 a{
     color: unset;

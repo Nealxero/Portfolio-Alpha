@@ -1,32 +1,8 @@
 .About {
-    background: linear-gradient(
-      30deg,
-      #7700a9 0%,
-      #762bf8 25%,
-      #0c00b4 50%,
-      #3094ff 75%,
-      #61c3ff 100%
-    );
-    background-size: 200%;
-    animation: aurora 10s infinite;
+  padding-top: 1%;
+  padding-bottom: 5%;
   }
-  @keyframes aurora {
-    0% {
-      background-position: left top;
-    }
-    25% {
-      background-position: right top;
-    }
-    50% {
-      background-position: right bottom;
-    }
-    75% {
-      background-position: left bottom;
-    }
-    100% {
-      background-position: left top;
-    }
-  }
+  
   .container_pdf {
     padding-top: 20px;
     display: flex;
@@ -60,9 +36,12 @@
     font-size: 30px;
   }
   .text-container2 h1 {
-    color: rgb(255, 255, 255);
-    font-size: 3.5vw;
+   font-family: 'Press Start 2P', sans-serif;
+    color: aqua;
+    font-size: 2.5vw;
+    font-display: justify;
     font-weight: bolder;
+    text-align: center;
   }
   
   .details-btn {
@@ -103,9 +82,10 @@
     .About {
       text-align: justify;
       padding: 5px;
+      margin: 10%;
     }
     .About h1 {
-      font-size: 6.5vw;
+      font-size: 3.5vw;
     }
     .About h4 {
       font-size: 4vw;

@@ -51,6 +51,7 @@ export const Skills = () => {
           <p className="my-4"> REST API </p>
         </div>
       </div>
+      <div className="border"></div>
     </div>
   );
 };

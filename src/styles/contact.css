@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     padding:5px;
-    background: radial-gradient(circle at 3% 75%, rgb(0, 0, 0) 50%,   rgb(0, 5, 61) 75%);
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -50,11 +49,14 @@ form input, textarea{
 }
 #submitBtn {
     border-radius: 4px;
-    background: radial-gradient(
-      circle at 3% 75%,
-      rgb(0, 255, 255) 5%,
-      rgb(0, 5, 61) 45%
-    );
+    background: linear-gradient(
+      30deg,
+      #000e61 0%,
+      #002c5c 25%,
+      #040042 50%,
+      #001297 75%,
+      #00fef6 100%
+    );;
     border: none;
     color: #ffffff;
     text-align: center;

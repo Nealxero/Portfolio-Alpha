@@ -1,15 +1,8 @@
 #projectsID {
-    background: linear-gradient(
-      30deg,
-      #61c3ff 0%,
-      #3094ff 25%,
-      #0c00b4 50%,
-      #762bf8 75%,
-      #7700a9 100%
-    );
+    
     
    justify-content: center;
-   font-family: "Courier New", Courier, monospace;
+   font-family: 'Press Start 2P', sans-serif;
   }
   .img-container {
     display: flex;
@@ -19,12 +12,13 @@
   
   
   #projectsID h3 {
-    color: rgb(255, 255, 255);
+    color: aqua;
     font-weight:bolder;
-    font-size: 50px;
+    font-size: 2.5vw;
     margin-bottom: 20px;
     text-align: center;
     padding-top: 55px;
+    font-family: 'Press Start 2P', sans-serif;
   }
   
   .image-box {
