@@ -33,7 +33,7 @@ export const About = () => {
           </button>
         </a>
       </div>
-      <div className="border"></div>
+      
     </div>
   );
 };

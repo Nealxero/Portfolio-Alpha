@@ -13,16 +13,7 @@
     padding-bottom: 5%;
    
   }
- .border { 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  border-bottom: 1px solid aqua;
-  background-color: aqua;
-  width: 50%;
-  margin: 0 auto
- }
+ 
   .containerH {
     display: flex;
     justify-content: space-between;

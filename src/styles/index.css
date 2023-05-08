@@ -70,3 +70,13 @@ a{
    -webkit-background-clip: text;
    -webkit-text-fill-color:transparent;
 }
+
+.border { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid;
+  border-color: aqua !important;
+  width: 50%;
+  margin: 0 auto
+ }

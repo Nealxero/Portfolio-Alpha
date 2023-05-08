@@ -33,7 +33,7 @@ export const Header = () => {
           <img src={prof} alt="Your Image" />
         </div>
       </div>
-	  <div className="border"> </div>
+	  
     </div>
   );
 };

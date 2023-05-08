@@ -53,7 +53,7 @@ export const Projects = () => {
         </button>
       </a>
       </div>
-      <div className="border"></div>
+      
     </div>
   );
 };
