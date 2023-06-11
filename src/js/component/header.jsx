@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 
 import "../../styles/header.css";
 import prof from "../../img/profPic.png";
+import crop from "../../img/cropped.png";
+
 export const Header = () => {
   const [text, setText] = useState("");
 
@@ -30,7 +32,7 @@ export const Header = () => {
           <p>{text}</p>
         </div>
         <div className="image-container">
-          <img src={prof} alt="Your Image" />
+          <img src={crop} alt="Your Image" />
         </div>
       </div>
 	  

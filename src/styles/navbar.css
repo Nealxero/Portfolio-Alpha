@@ -35,9 +35,10 @@
     color: aqua;
   }
   
-  .nav-items {
+  .nav-item {
     font-family: "Courier New", Courier, monospace;
     font-size: 15px;
+    padding-right: 15px;
   }
   
   .navbar-toggler {
