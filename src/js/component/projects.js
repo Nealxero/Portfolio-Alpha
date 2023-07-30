@@ -5,6 +5,7 @@ import { useState } from "react";
 import arcade from "../../img/arcade.png"
 import Victa from "../../img/Victa.png";
 import soon from "../../img/soon.png";
+import xpent from "../../img/xpentpng.png"
 import github from "../../img/github.png";
 import { FaGithub } from "react-icons/fa";
 
@@ -28,6 +29,17 @@ export const Projects = () => {
               Arcade Planet
             
             <p> Simple Front page example for an Arcade located in Sevilla, Spain. Using React, JS, CSS</p>
+            </a>
+          </div>
+        </div>
+        <div className="image-box">
+          <img src={xpent} alt="Xpent" />
+          <div className="overlay">
+            <a href="https://xpent.vercel.app" target="_blank">
+              Xpent
+            
+            <p> Budget app to keep track of your expenses, you can create different budgets and add expenses for each of them</p>
+
             </a>
           </div>
         </div>
