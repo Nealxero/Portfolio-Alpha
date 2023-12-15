@@ -32,6 +32,8 @@ export const About = () => {
             <FaLinkedin className="linkedin-logo" />
           </button>
         </a>
+
+        
       </div>
       
     </div>

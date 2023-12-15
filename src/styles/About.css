@@ -60,6 +60,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     transition: 0.5s;
+    margin-top: 30px;
   }
   
   .details-btn:hover {
