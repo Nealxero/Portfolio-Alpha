@@ -1,82 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --font-family: 'Manrope', sans-serif;
+  --font-family: "Manrope", sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
-  --color-bg: #040C18;
-  --color-footer : #031B34;
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+
+  --color-footer: #031b34;
   --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Quando', serif;
-    scroll-behavior: smooth;
-    
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quando", serif;
+  scroll-behavior: smooth;
 }
-body { 
-    background: var(--color-bg);
-    background: linear-gradient(
-        30deg,
-        #000000 0%,
-        #00162e 25%,
-        #060055 50%,
-        #00013e 75%,
-        #000000 100%
-      );
-      background-size: 200%;
-      animation: aurora 10s infinite;
+body {
+  background: rgb(107, 107, 107);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(107, 107, 107, 1) 0%,
+    rgba(2, 76, 92, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(107, 107, 107, 1) 0%,
+    rgba(2, 76, 92, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(107, 107, 107, 1) 0%,
+    rgba(2, 76, 92, 1) 100%
+  );
 }
-@keyframes aurora {
-    0% {
-      background-position: left top;
-    }
-    25% {
-      background-position: right top;
-    }
-    50% {
-      background-position: right bottom;
-    }
-    75% {
-      background-position: left bottom;
-    }
-    100% {
-      background-position: left top;
-    }
-  }
 
-
-a{
-    color: unset;
-    text-decoration: none;
-
+a {
+  color: unset;
+  text-decoration: none;
 }
 
 .nav__bg {
-    
-    background:radial-gradient(circle at 3% 75%, rgba(0, 8, 98, 1) 0%, rgba(78, 0, 78, 1) 100%);
+  background: radial-gradient(
+    circle at 3% 75%,
+    rgba(0, 8, 98, 1) 0%,
+    rgba(78, 0, 78, 1) 100%
+  );
 }
 
 .nav__text {
-   background: var(--gradient-text);
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color:transparent;
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.border { 
+.border {
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid;
   border-color: aqua !important;
   width: 50%;
-  margin: 0 auto
- }
+  margin: 0 auto;
+}

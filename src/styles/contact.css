@@ -21,12 +21,8 @@ form {
 }
 form h3 { 
   color: #ffffff;
-  font-size: 48px;
+  font-size: 18px;
   text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 30px;
-  animation-name: wave-animation;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
   text-align: center;
 }
 
@@ -38,10 +34,10 @@ form input, textarea{
     margin: 10px;
     padding: 20px;
     outline: none;
-    background: rgba(255, 255, 255, 0.103);
+    background: rgb(255, 255, 255);
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-style: inset;
     border-width: 3px;
     border-color: aqua;

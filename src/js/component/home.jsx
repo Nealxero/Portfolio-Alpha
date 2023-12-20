@@ -15,9 +15,9 @@ const Home = () => {
 			<div className="border"></div>
 			<About/>
 			<div className="border"></div>
-			<Skills/>
-			<div className="border"></div>
 			<Projects/>
+			<div className="border"></div>
+			<Skills/>
 			<div className="border"></div>
 			<Contact/>
 			<Footer/>

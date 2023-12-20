@@ -45,7 +45,19 @@ export const Projects = () => {
         </div>
         
       </div>
-      
+      <div className="gitBox">
+      <a
+        className="gitbtn"
+        href="https://github.com/Nealxero"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="github-btn">
+          <span>My Github</span>
+          <FaGithub className="github-logo" />
+        </button>
+      </a>
+      </div>
       
     </div>
   );

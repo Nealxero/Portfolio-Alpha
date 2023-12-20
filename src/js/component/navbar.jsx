@@ -18,7 +18,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-md ">
       <div className="container">
         <a className="navbar-brand" type="" href="#Home">
-          Santi
+          {"{ Santi }"}
         </a>
         <button
           id="navBut"
@@ -45,7 +45,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#About" onClick={closeMenu}>
-                About
+                About 
               </a>
             </li>
             <li className="nav-item">
