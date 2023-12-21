@@ -3,6 +3,7 @@ import React from "react";
 import "../../styles/About.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { ImProfile } from "react-icons/im";
 import Mudkip from "../../img/Mudkip.gif";
 
 export const About = () => {
@@ -31,6 +32,9 @@ export const About = () => {
                   <li>
                     <a href="https://github.com/Nealxero" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                   </li>
+                  <li>
+                    <a href="https://drive.google.com/file/d/1f0VhGobUXO-Fr_xvnULBMWU046wy4xk2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><ImProfile /></a>
+                  </li>
                 </ul>
               </div>
       
@@ -38,3 +42,6 @@ export const About = () => {
     </div>
   );
 };
+
+
+//

@@ -3,6 +3,9 @@
   margin-bottom: 5%;
   }
   
+  .about-icons {
+    margin-top: 20px;
+  }
   .container_pdf {
     display: flex;
     justify-content: center;
@@ -30,7 +33,7 @@
   }
   
   .text-container2 h4 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Courier New", Courier, monospace;
     font-size: 30px;
   }
@@ -43,31 +46,6 @@
     text-align: center;
     border-color: black;
     border-radius: 10px;
-  }
-  
-  .details-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(
-      circle at 3% 75%,
-      rgb(0, 167, 189) 0%,
-      rgb(0, 189, 218) 90%
-    );
-    color: white;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    transition: 0.5s;
-    margin-top: 30px;
-  }
-  
-  .details-btn:hover {
-    text-shadow: 0 0 10px #818181, 0 0 20px #001aff, 0 0 30px;
-    transform: translateY(-5px);
   }
   
   .linkedin-logo {
