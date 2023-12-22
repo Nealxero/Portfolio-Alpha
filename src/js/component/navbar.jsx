@@ -44,22 +44,22 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#About" onClick={closeMenu}>
+              <a className="nav-link" href="#About2" onClick={closeMenu}>
                 About 
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Skills" onClick={closeMenu}>
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projectsID" onClick={closeMenu}>
+              <a className="nav-link" href="#Projects2" onClick={closeMenu}>
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#ContactMe" onClick={closeMenu}>
+              <a className="nav-link" href="#Skills2" onClick={closeMenu}>
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Contact2" onClick={closeMenu}>
                 Contact
               </a>
             </li>

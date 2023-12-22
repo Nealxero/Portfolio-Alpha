@@ -12,13 +12,13 @@ const Home = () => {
 		<div>
 			<Navbar/>
 			<Header/>
-			<div className="border"></div>
+			<div className="border" id="About2"></div>
 			<About/>
-			<div className="border"></div>
+			<div className="border" id="Projects2"></div>
 			<Projects/>
-			<div className="border"></div>
+			<div className="border" id="Skills2"></div>
 			<Skills/>
-			<div className="border"></div>
+			<div className="border" id="Contact2"></div>
 			<Contact/>
 			<Footer/>
 		</div>

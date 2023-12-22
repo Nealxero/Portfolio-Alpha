@@ -14,8 +14,8 @@ background: repeating-linear-gradient( -45deg, #1c1c1c, #1c1c1c 20px, #010059 20
 }
 
 .row {
-  max-width: 850px; /* Changed width to max-width for responsiveness */
-  width: 100%;
+  max-width: 250px; /* Changed width to max-width for responsiveness */
+  width: 70%;
   margin: 0 auto; /* Centering the content */
 }
 

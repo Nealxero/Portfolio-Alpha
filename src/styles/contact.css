@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding:5px;
-    padding-top: 50px;
+    margin-top:5%;
     padding-bottom: 20px;
 }
 
@@ -56,9 +56,9 @@ form input, textarea{
     border: none;
     color: #ffffff;
     text-align: center;
-    font-size: 26px;
+    font-size: 15px;
     padding: 16px;
-    width: 170px;
+    width: 120px;
     transition: all 0.5s;
     cursor: pointer;
     margin: auto ;

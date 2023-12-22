@@ -10,7 +10,7 @@ export const Header = () => {
 
   useEffect(() => {
     const message =
-      "the goal is not the perfection, but to learn something new.";
+      "the goal is not the perfection, but to learn something new, thats why we shouldn't be afraid of failure";
     let i = 0;
     const intervalId = setInterval(() => {
       if (i === message.length) {

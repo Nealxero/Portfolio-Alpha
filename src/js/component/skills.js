@@ -14,7 +14,7 @@ import mongodb from "../../img/mongodb.png"
 export const Skills = () => {
   return (
     <div id="Skills">
-      <h3 id="skillsID"> Skills </h3>
+      <h3 id="skillsID"> {"<Skills/>"} </h3>
       <h4> Front </h4>
       <div className="skillsCont">
         <div className="imgJS">

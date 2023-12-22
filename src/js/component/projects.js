@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 export const Projects = () => {
   return (
     <div id="projectsID">
-      <h3 id="Projects">My Projects</h3>
+      <h3 id="Projects">{"<My Projects/>"}</h3>
       <div className="img-container">
         <div className="image-box">
           <img src={Victa} alt="Victa Project" />
