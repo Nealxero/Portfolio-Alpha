@@ -1,7 +1,7 @@
 footer {
   background-color: #000000;
 opacity: 1;
-background: repeating-linear-gradient( -45deg, #1c1c1c, #1c1c1c 20px, #010059 20px, #140056 100px );
+background: repeating-linear-gradient( -45deg, #1c1c1c, #1c1c1c 20px, rgb(63, 63, 63) 20px, #383838 100px );
   color: #fff;
   padding: 20px 0; /* Adjusted padding */
   text-align: center;

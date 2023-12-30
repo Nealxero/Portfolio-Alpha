@@ -47,11 +47,11 @@ form input, textarea{
     border-radius: 4px;
     background: linear-gradient(
       30deg,
-      #00d5ff 0%,
-      #007bff 25%,
-      #08007a 50%,
-      #001297 75%,
-      #00fef6 100%
+      #b3b3b3 0%,
+      #848484 25%,
+      #3a3a3a 50%,
+      #000000 75%,
+      #999999 100%
     );;
     border: none;
     color: #ffffff;
@@ -84,7 +84,7 @@ form input, textarea{
     padding-right: 24px;
     padding-left:8px;
     box-shadow: rgba(46, 233, 240, 0.4) 5px 5px, rgba(46, 208, 240, 0.3) 10px 10px, rgba(46, 195, 240, 0.2) 15px 15px, rgba(46, 182, 240, 0.1) 20px 20px, rgba(46, 175, 240, 0.05) 25px 25px;
-    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 30px;
+    text-shadow: 0 0 10px #9a9a9a, 0 0 20px #9a9a9a, 0 0 30px;
   }
   
   #submitBtn:hover:after {

@@ -4,7 +4,7 @@ import "../../styles/projects.css";
 import { useState } from "react";
 import arcade from "../../img/arcade.png"
 import Victa from "../../img/Victa.png";
-import soon from "../../img/soon.png";
+import Prompt from "../../img/Prompt.png"
 import xpent from "../../img/xpentpng.png"
 import github from "../../img/github.png";
 import { FaGithub } from "react-icons/fa";
@@ -15,10 +15,10 @@ export const Projects = () => {
       <h3 id="Projects">{"<My Projects/>"}</h3>
       <div className="img-container">
         <div className="image-box">
-          <img src={Victa} alt="Victa Project" />
+          <img src={Prompt} alt="NextJS" />
           <div className="overlay">
-            <a href="https://github.com/Nealxero/Victa-0.5" target="_blank">
-              Victa
+            <a href="https://next-1st.vercel.app" target="_blank">
+              Using NextJS, google authenticator and MongoDB, in this web you can create an user and publish useful prompts for public use (step by step guide)
             </a>
           </div>
         </div>

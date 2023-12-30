@@ -33,7 +33,7 @@ a {
   background: radial-gradient(
     circle at 3% 75%,
     rgba(0, 8, 98, 1) 0%,
-    rgba(78, 0, 78, 1) 100%
+    rgb(76, 76, 76) 100%
   );
 }
 
