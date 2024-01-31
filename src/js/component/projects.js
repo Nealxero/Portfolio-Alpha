@@ -18,7 +18,10 @@ export const Projects = () => {
           <img src={Prompt} alt="NextJS" />
           <div className="overlay">
             <a href="https://next-1st.vercel.app" target="_blank">
-              Using NextJS, google authenticator and MongoDB, in this web you can create an user and publish useful prompts for public use (step by step guide)
+             Promptopia
+             <p> 
+             Using NextJS, google authenticator and MongoDB, in this web you can create an user and publish useful prompts for public use (step by step guide)
+             </p>
             </a>
           </div>
         </div>
